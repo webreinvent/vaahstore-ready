@@ -1,0 +1,25 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "wdio": "wdio run ./wdio.conf.js"
+    },
+    "devDependencies": {
+        "@wdio/cli": "^8.16.12",
+        "@wdio/local-runner": "^8.16.12",
+        "@wdio/mocha-framework": "^8.16.12",
+        "@wdio/spec-reporter": "^8.16.12",
+        "@wdio/sync": "^7.27.0",
+        "axios": "^1.7.7",
+        "chromedriver": "^117.0.2",
+        "laravel-vite-plugin": "^0.8.0",
+        "vite": "^4.5.5",
+        "wdio-chromedriver-service": "^8.1.1",
+        "wdio-docker-service": "^3.2.1",
+        "wdio-intercept-service": "^4.4.0",
+        "webdriverio": "^8.16.12",
+        "chalk": "^4.1.0",
+        "cli-color": "^2.0.3"
+    }
+}
